@@ -1,2 +1,2 @@
 require("nazuko.remap")
-print("Hello from nazuko")
+require("nazuko.set")
