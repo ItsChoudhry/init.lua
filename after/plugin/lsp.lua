@@ -14,7 +14,8 @@ lsp.ensure_installed({
 	"zls",
 	"gopls",
 	"htmx",
-	"marksman"
+	"marksman",
+    "sqlls"
 })
 
 -- Fix Undefined global 'vim'
