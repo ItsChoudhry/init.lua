@@ -5,6 +5,8 @@ lsp.preset("recommended")
 lsp.ensure_installed({
 	"tsserver",
 	"eslint",
+	"cmake",
+	"cssls",
 	"pyright",
 	"rust_analyzer",
 	"lua_ls",
