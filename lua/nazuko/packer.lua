@@ -52,4 +52,5 @@ return require('packer').startup(function(use)
             "markdown" } end, ft = { "markdown" }, })
     use 'm4xshen/autoclose.nvim'
     use 'windwp/nvim-ts-autotag'
+    use 'stevearc/conform.nvim'
 end)
