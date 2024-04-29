@@ -15,7 +15,7 @@ conform.setup({
         html = { "prettier" },
         htmx = { "prettier" },
         yaml = { "prettier" },
-        cpp = { "clangd" }
+        cpp = { "clang_format" }
     },
     format_on_save = {
         timeout_ms = 500,
