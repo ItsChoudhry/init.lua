@@ -26,7 +26,6 @@ return require('packer').startup(function(use)
     use("mbbill/undotree")
     use('tpope/vim-fugitive')
     use('tpope/vim-commentary')
-    use 'stevearc/conform.nvim'
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
@@ -60,4 +59,10 @@ return require('packer').startup(function(use)
     })
     use 'm4xshen/autoclose.nvim'
     use 'windwp/nvim-ts-autotag'
+    use({
+        "stevearc/conform.nvim",
+        config = function()
+            require("conform").setup()
+        end,
+    })
 end)
